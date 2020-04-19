@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Delightful Donuts</title>
+    <link rel="icon" type="image/ico" href="images/icon.jpg">
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/table.css">
+</head>
+    
+<body>
+    <header> 
+        <h1>Delightful Donuts</h1>
+        <img src="images/icon.jpg" alt="Delightful Donuts logo" height="80">
+		<h2>Order</h2>
+    </header>
+    
+    <nav id="nav_menu"> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="offering.html">Offering</a>
+                <ul>
+                    <li><a href="#">Yeast</a></li>
+                    <li><a href="#">Vegan</a></li>
+                    <li><a href="#">Beverages</a>
+                        <ul>
+                            <li><a href="#">hot</a></li>
+                            <li><a href="#">cold</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="ordering.html">Order</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+            
+    <main>    
+        <aside id="left">
+            
+            <img src="images/aboutus.jpg" alt="Jeffrey Toobin photo">
+            <h3>Home<br><a href="index.html">Jeffrey Toobin</a></h3>
+            <img src="images/offer.jpg" alt="Andrew Ross Sorkin photo">
+            <h3>Offering<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
+            <img src="images/ordering.jpg" alt="Amy Chua photo">
+            <h3>Order<br><a href="speakers/chua.html">Amy Chua</a></h3>
+            <img src="images/contact.jpg" alt="Scott Sampson photo">
+            <h3>Contact Us<br><a href="speakers/sampson.html">Scott Sampson</a></h3>
+        </aside>
+        
+        <section> 
+            <article>
+                <figure>
+                    <figcaption>Our Order Menu</figcaption>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="hdr_order" scope="col">Order Type</th>
+                                <th id="hdr_offering" scope="col">Offering</th>
+                                <th id="hdr_cost" scope="col">Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td headers="hdr_donuts" scope="rowgroup" rowspan="3">Donuts</td>
+                                <td headers="hdr_offering" scope="row">Single</td>
+                                <td headers="hdr_cost" class="cost">$2.25</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_offering" scope="row">Half Dozen</td>
+                                <td headers="hdr_cost" class="cost">$11</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_offering" scope="row">Dozen</td>
+                                <td headers="hdr_cost" class="cost">$20</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_drinks" scope="rowgroup" rowspan="4">Beverages</td>
+                                <td headers="hdr_offering" scope="row">Coffee</td>
+                                <td headers="hdr_cost" class="cost">$25</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_offering" scope="row">Latte</td>
+                                <td headers="hdr_cost" class="cost">$25</td>
+                            </tr>
+                            <tr>
+                                <td headers="hdr_offering" scope="row">March 21</td>
+                                <td headers="hdr_cost" class="cost">$25</td>
+                            </tr>
+                            <tr class="border">
+                                <td headers="hdr_offering" scope="row">April 18</td>
+                                <td headers="hdr_cost" class="cost">$25</td>
+                            </tr>
+                            <tr>
+                                <td id="hdr_individual" class="bold" colspan="3" scope="row">All Beverages sold Hot or Cold</td>
+                               
+                            </tr>
+                            <tr>
+                                <td id="hdr_season" class="bold" colspan="3" scope="row">Cost of a season luncheon ticket
+                                </td>
+                                
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th id="hdr_savings" colspan="3" scope="row">Savings</th>
+                             
+                            </tr>
+                        </tfoot>
+                    </table>
+                </figure>
+            </article>
+ 
+        </section>
+
+        <aside id="right">
+            <h2>Donut Menu</h2>
+            <div class="container">
+            <img src="images/april_donuts.jpg" alt="April donut flavours"  > 
+            <div class="overlap">
+            <div class="text">April Donuts</div>
+            </div>
+            </div>
+            <h3>Our Flavours this Month</h3>
+			<ul>
+				<li>Boston</li>
+				<li>Fritter</li>
+                <li>Kinder</li>
+                <li>Glazed</li>
+				<li>KitKat</li>
+				<li>Oreo</li>	
+				<li>MiniEgg</li>
+                <li>Chocolate</li>
+                <li>Vanilla</li>
+				<li>Lemon</li>
+                <li>Cherry</li>
+                <li>Popcorn</li>
+			
+			</ul>
+           
+            <a href="offering.html">Check Out Previous Month Flavours</a>&nbsp;
+           
+            <p>uctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur </p>
+
+                <address class= "visit">
+                    <p>We would love to see you smiling faces!</p>
+                    <p>so stop by our location!</p>
+                </address>
+                <p><a href="https://www.debrodniks.ca/"> Or Click Here to Visit Our Donut Friends! </a></p>
+
+        </aside>
+        
+        </main>
+    
+
+        <footer> 
+           
+           <p> &copy;2020 DELIGHTFUL DONUTS- delightfuldonuts.com</p> 
+         
+        </footer>
+            
+    </body>
+
+</html>
